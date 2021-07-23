@@ -89,7 +89,6 @@ import matplotlib as mpl
 import matplotlib.pylab as plt
 from matplotlib import font_manager
 
-
 font_fname = 'C:/Windows/Fonts/malgun.ttf'
 font_family = font_manager.FontProperties(fname=font_fname).get_name()
 
