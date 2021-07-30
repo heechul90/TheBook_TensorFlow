@@ -79,6 +79,7 @@ img = cv2.imread('chapter05/data/cat.jpg')
 img = cv2.resize(img, (100,100))
 input_img = np.expand_dims(img, axis=0)
 
+
 feature = feature_map.predict(input_img)
 fig = plt.figure(figsize=(50,50))
 for i in range(48):
