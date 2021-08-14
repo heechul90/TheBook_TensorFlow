@@ -1,6 +1,5 @@
 # TheBook_TensorFlow!!
 
-
 # setting
 
 - conda 
