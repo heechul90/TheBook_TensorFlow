@@ -15,6 +15,7 @@ from tensorflow.keras.layers import Dense, Flatten, Conv2D, MaxPooling2D, Dropou
 ### VGG19 네트워크 생성
 class VGG19(Sequential):
     def __init__(self, input_shape):
+
         super().__init__()
         self.add(Conv2D(64, kernel_size=(3,3), padding='same',
                         activation='relu', input_shape=input_shape))
