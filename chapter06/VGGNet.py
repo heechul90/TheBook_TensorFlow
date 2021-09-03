@@ -11,7 +11,6 @@ from tensorflow.keras.losses import categorical_crossentropy
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.layers import Dense, Flatten, Conv2D, MaxPooling2D, Dropout
 
-
 ### VGG19 네트워크 생성
 class VGG19(Sequential):
     def __init__(self, input_shape):
