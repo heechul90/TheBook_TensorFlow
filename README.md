@@ -23,6 +23,3 @@
 - 개발툴(파이참)
     - file > setting > project interpreter
         - 생성한 conda 가상환경으로 적용
-        - 
-
-
