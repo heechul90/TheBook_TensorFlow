@@ -32,7 +32,6 @@ class LeNet(Sequential):
 model = LeNet((100,100,3), num_classes)
 model.summary()
 
-
 ### 파라미터 초기화 및 데이터 호출
 EPOCHS = 100
 BATCH_SIZE = 32
