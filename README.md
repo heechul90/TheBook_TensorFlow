@@ -29,4 +29,3 @@
 - cpu
 - gpu
 - conda 설치
-
